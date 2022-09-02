@@ -1,0 +1,7 @@
+## Vagrant allows us to code in our local computers
+###My machine vs. virtual environments
+Your computer’s environment - whether it’s Windows, MacOS or a Linux distribution - will change a lot over time, with or without you noticing. You will install applications, games, tools, … that will require and install different dependencies and at the end of the day you can end up having completely different behaviors or even have something not work because of software conflicts.
+
+We won’t go into the details of Virtual Machines, but as their name tells, they are Virtual “Computers” that will emulate everything from the CPU to the RAM and Disk. Virtual Machines in the context of development are a means to isolate and maintain a stable environment that will basically run the same way on any host (any computer). This way, you can have any software installed on your Windows, MacOS, or whatever Linux distribution; your Virtual Machine will run its own environment, have its own programs, with their own versions, etc.
+
+Using virtual environments prevents developers from saying “I don’t understand, it works on my machine.
